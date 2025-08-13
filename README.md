@@ -3,9 +3,15 @@
 ##  About me
 
 ### 🔭 Tech Stack
-Code Language and Framework
+#### Code Language 
+
 [![My Skills](https://skillicons.dev/icons?i=py,java,cpp,c,js,html,css,wasm)](https://skillicons.dev)
+
+#### Framework
+
 ### OS
+
+[![My Skills](https://skillicons.dev/icons?i=debian,arch,ubuntu,linux)](https://skillicons.dev)
 
 ## 📚 Language
 - Simplified Chinese / 中文 (Native)
