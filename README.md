@@ -15,6 +15,10 @@
 
 [![My Skills](https://skillicons.dev/icons?i=debian,arch,ubuntu,linux)](https://skillicons.dev)
 
+### Tools
+
+[![My Skills](https://skillicons.dev/icons?i=docker,git,npm,vite,notion)](https://skillicons.dev)
+
 ## 📚 Language
 - Simplified Chinese / 中文 (Native)
 - English (🌱)
