@@ -1,5 +1,11 @@
-## Hi there 👋
-👋 Welcome to my GitHub profile!
+##  👋 Welcome to my GitHub profile!👋
+
+##  About me
+
+
+
+
+
 
 <!--
 **hygroupseries/hygroupseries** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
