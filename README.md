@@ -1,7 +1,7 @@
 ##  👋 Welcome to my GitHub profile!👋
 
 ##  About me
-
+山西太原，正在csdiying
 ### 🔭 Tech Stack
 #### Code Language 
 
