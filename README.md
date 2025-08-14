@@ -1,7 +1,7 @@
 ##  👋 Welcome to my GitHub profile!👋
 
 ##  About me
-山西太原，正在csdiying
+山西太原，正在csdiying && vibe Coding
 ### 🔭 Tech Stack
 #### Code Language 
 
@@ -15,7 +15,7 @@
 
 [![My Skills](https://skillicons.dev/icons?i=debian,arch,ubuntu,linux)](https://skillicons.dev)
 
-### Tools
+### Tools⚡
 
 [![My Skills](https://skillicons.dev/icons?i=docker,git,npm,vite,notion)](https://skillicons.dev)
 
@@ -24,7 +24,7 @@
 - English (🌱)
 
 ## ✈ Out of Code 代码之外
-
+eat 
 <!--
 **hygroupseries/hygroupseries** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 
@@ -37,5 +37,5 @@ Here are some ideas to get you started:
 - 💬 Ask me about ...
 - 📫 How to reach me: ...
 - 😄 Pronouns: ...
-- ⚡ Fun fact: ...
+-  Fun fact: ...
 -->
