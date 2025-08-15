@@ -5,11 +5,11 @@
 ### 🔭 Tech Stack
 #### Code Language 
 
-[![My Skills](https://skillicons.dev/icons?i=py,java,cpp,go,rust,c,ts,js,html,css,wasm)](https://skillicons.dev)
+[![My Skills](https://skillicons.dev/icons?i=py,java,cpp,go,rust,c,ts,js,html,css,wasm&theme=light)](https://skillicons.dev)
 
 #### Framework
 
-[![My Skills](https://skillicons.dev/icons?i=tailwind,vue,react,nodejs,nextjs,nuxtjs,electron,flutter,express,fastapi,flask)](https://skillicons.dev)
+[![My Skills](https://skillicons.dev/icons?i=tailwind,vue,react,nodejs,nextjs,nuxtjs,electron,flutter,express,fastapi,flask&theme=light)](https://skillicons.dev)
 
 ### OS
 
