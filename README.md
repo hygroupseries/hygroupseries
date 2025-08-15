@@ -13,7 +13,7 @@
 
 ### OS
 
-[![My Skills](https://skillicons.dev/icons?i=debian,arch,ubuntu,linux,cent)](https://skillicons.dev)
+[![My Skills](https://skillicons.dev/icons?i=debian,arch,ubuntu,nix,linux)](https://skillicons.dev)
 
 ### Tools⚡
 
