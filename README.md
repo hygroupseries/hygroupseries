@@ -5,7 +5,7 @@
 ### 🔭 Tech Stack
 #### Code Language 
 
-[![My Skills](https://skillicons.dev/icons?i=py,pypy,java,cpp,go,rust,c,ts,js,html,css,wasm)](https://skillicons.dev)
+[![My Skills](https://skillicons.dev/icons?i=py,java,cpp,go,rust,c,ts,js,html,css,wasm)](https://skillicons.dev)
 
 #### Framework
 
@@ -13,11 +13,11 @@
 
 ### OS
 
-[![My Skills](https://skillicons.dev/icons?i=debian,arch,ubuntu,nix,linux)](https://skillicons.dev)
+[![My Skills](https://skillicons.dev/icons?i=debian,arch,ubuntu,nix,linux,windows)](https://skillicons.dev)
 
 ### Tools⚡
 
-[![My Skills](https://skillicons.dev/icons?i=vscode,docker,git,npm,vite,notion)](https://skillicons.dev)
+[![My Skills](https://skillicons.dev/icons?i=vscode,idea,docker,git,npm,vite,notion)](https://skillicons.dev)
 
 ## 📚 Language
 - Simplified Chinese / 中文 (Native)
