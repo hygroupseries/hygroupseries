@@ -24,7 +24,7 @@
 - English (🌱)
 
 ## ✈ Out of Code 代码之外
-Minecraft 
+ - Minecraft 
 <!--
 **hygroupseries/hygroupseries** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 
