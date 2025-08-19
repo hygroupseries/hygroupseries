@@ -11,7 +11,7 @@
 
 [![My Skills](https://skillicons.dev/icons?i=tailwind,vue,react,nodejs,nextjs,nuxtjs,electron,flutter,express,fastapi,flask&theme=light)](https://skillicons.dev)
 
-### OS uu'ts
+### OS 🕹
 
 [![My Skills](https://skillicons.dev/icons?i=debian,arch,ubuntu,nix,linux,windows&theme=light)](https://skillicons.dev)
 
