@@ -1,4 +1,4 @@
-##  👋 Welcome to my GitHub profile!👋 Just DO IT
+##  👋 Welcome to my GitHub profile!👋  Just DO IT
 
 ##  About me
 山西太原，正在csdiying && vibe Coding
@@ -11,7 +11,7 @@
 
 [![My Skills](https://skillicons.dev/icons?i=tailwind,vue,react,nodejs,nextjs,nuxtjs,electron,flutter,express,fastapi,flask&theme=light)](https://skillicons.dev)
 
-### OS
+### OS uu'ts
 
 [![My Skills](https://skillicons.dev/icons?i=debian,arch,ubuntu,nix,linux,windows&theme=light)](https://skillicons.dev)
 
@@ -20,10 +20,10 @@
 [![My Skills](https://skillicons.dev/icons?i=vscode,idea,docker,git,npm,vite,bash,notion&theme=light)](https://skillicons.dev)
 
 ## 📚 Language
-- Simplified Chinese / 中文 (Native)
+- Simplified Chinese / 中文 (Native)uuts
 - English (🌱)
 
 ## ✈ Out of Code 代码之外
  - Minecraft
- - Building Computer
+ - Building Computer 🖥
 
