@@ -24,6 +24,7 @@
 - English (🌱)
 
 ## ✈ Out of Code 代码之外
- - Minecraft
- - Building Computer 🖥
+ - 💻 Minecraft
+ - 🖥 Building Computer
+ - 🎬 Watching Movies
 
