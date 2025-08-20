@@ -27,4 +27,4 @@
  - 💻 Minecraft
  - 🖥 Building Computer
  - 🎬 Watching Movies
-
+ - 🎮 Game
