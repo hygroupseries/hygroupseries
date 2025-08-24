@@ -13,11 +13,11 @@
 
 ### 🕹 OS 
 
-[![My Skills](https://skillicons.dev/icons?i=debian,arch,ubuntu,nix,fedora,linux,windows&theme=light)](https://skillicons.dev)
+[![My Skills](https://skillicons.dev/icons?i=debian,arch,ubuntu,nix,linux,windows&theme=light)](https://skillicons.dev)
 
 ### ⚡ Tools
 
-[![My Skills](https://skillicons.dev/icons?i=vscode,idea,docker,git,npm,webpack,vite,bash,notion&theme=light)](https://skillicons.dev)
+[![My Skills](https://skillicons.dev/icons?i=vscode,idea,docker,git,cmake,npm,webpack,vite,bash,notion&theme=light)](https://skillicons.dev)
 
 ## 📚 Language
 - Simplified Chinese / 中文 (Native)uuts
