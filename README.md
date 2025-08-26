@@ -9,7 +9,8 @@
 
 #### Framework
 
-[![My Skills](https://skillicons.dev/icons?i=spring,tailwind,vue,react,nodejs,nextjs,nuxtjs,electron,flutter,express,fastapi,flask&theme=light,threejs&theme=dark)](https://skillicons.dev)
+[![My Skills](https://skillicons.dev/icons?i=spring,tailwind,vue,react,nodejs,nextjs,nuxtjs,electron,flutter,express,fastapi,flask&theme=light)](https://skillicons.dev)
+[![My Skills](https://skillicons.dev/icons?i=threejs)](https://skillicons.dev)
 
 ### 🕹 OS 
 
