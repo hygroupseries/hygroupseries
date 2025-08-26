@@ -5,7 +5,7 @@
 ### 🔭 Tech Stack
 #### Code Language 
 
-[![My Skills](https://skillicons.dev/icons?i=py,java,cpp,go,rust,c,haskell,ts,js,clojure,html,css,wasm&theme=light)](https://skillicons.dev)
+[![My Skills](https://skillicons.dev/icons?i=py,java,cpp,go,rust,c,haskell,ts,js,clojure,html,css,wasm,lua&theme=light)](https://skillicons.dev)
 
 #### Framework
 
