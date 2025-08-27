@@ -21,7 +21,7 @@
 [![My Skills](https://skillicons.dev/icons?i=vscode,idea,docker,git,cmake,npm,webpack,vite,bash,powershell,notion&theme=light)](https://skillicons.dev)
 
 ## 📚 Language
-- Simplified Chinese / 中文 (Native)uuts
+- Simplified Chinese / 中文 (Native)
 - English (🌱)
 
 ## ✈ Out of Code 代码之外
