@@ -1,7 +1,7 @@
 ##  👋 Welcome to my GitHub profile!👋  Just DO IT
 
 ##  About me
-山西太原，正在csdiying && vibe Coding
+山西太原，csdiying && vibe Coding && making something 
 ### 🔭 Tech Stack
 #### Code Language 
 
@@ -25,7 +25,7 @@
 - English (🌱)
 
 ## ✈ Out of Code 代码之外
- - 💻 Minecraft Java Edition
+ - 💻 Minecraft Java Edition on Windows and Linux
  - 🖥 Building Computers
  - 🎬 Watching Movies
  - 🎮 Game
