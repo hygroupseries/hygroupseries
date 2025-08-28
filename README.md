@@ -18,7 +18,7 @@
 
 ### ⚡ Tools
 
-[![My Skills](https://skillicons.dev/icons?i=vscode,idea,docker,git,cmake,npm,webpack,vite,bash,powershell,notion&theme=light)](https://skillicons.dev)
+[![My Skills](https://skillicons.dev/icons?i=vscode,idea,docker,git,cmake,npm,webpack,vite,figma,bash,powershell,notion&theme=light)](https://skillicons.dev)
 
 ## 📚 Language
 - Simplified Chinese / 中文 (Native)
