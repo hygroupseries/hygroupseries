@@ -29,3 +29,4 @@
  - 🖥 Building Computers
  - 🎬 Watching Movies
  - 🎮 Game
+ - 💾 Recording my life
