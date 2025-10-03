@@ -30,3 +30,5 @@
  - 🎬 Watching Movies
  - 🎮 Game
  - 💾 Recording my Life
+
+![github contribution grid snake animation](https://raw.githubusercontent.com/hygroupseries/hygroupseries/output/github-contribution-grid-snake.svg)
