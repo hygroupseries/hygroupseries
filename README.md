@@ -30,6 +30,6 @@ csdiying CS61A CS61B CS106B/L && vibe Coding
  - 🖥 Building Computers
  - 🎬 Watching Movies
  - 🎮 Game
- - 💾 Recording my Life
+ - 💾 Recording
 
 ![github contribution grid snake animation](https://raw.githubusercontent.com/hygroupseries/hygroupseries/output/github-contribution-grid-snake.svg)
