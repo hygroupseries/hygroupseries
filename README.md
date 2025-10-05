@@ -1,7 +1,7 @@
 ##  👋 Welcome to my GitHub profile!👋  Just DO IT
 
 ##  About me
-SoftwareEngineering MAJOR 
+###SoftwareEngineering MAJOR 
 csdiying CS61A CS61B CS106B/L && vibe Coding
 ### 🔭 Tech Stack
 #### Code Language 
