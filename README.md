@@ -1,7 +1,8 @@
 ##  👋 Welcome to my GitHub profile!👋  Just DO IT
 
 ##  About me
-山西太原，csdiying CS61A CS61B CS106B/L && vibe Coding
+SoftwareEngineering MAJOR 
+csdiying CS61A CS61B CS106B/L && vibe Coding
 ### 🔭 Tech Stack
 #### Code Language 
 
