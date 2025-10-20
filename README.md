@@ -10,7 +10,7 @@ csdiying CS61A CS61B CS106B/L && vibe Coding
 
 #### Framework
 
-[![My Skills](https://skillicons.dev/icons?i=spring,tailwind,vue,react,nodejs,nextjs,nuxtjs,electron,flutter,express,fastapi,flask&theme=light)](https://skillicons.dev)
+[![My Skills](https://skillicons.dev/icons?i=spring,tailwind,vue,react,nodejs,nextjs,nuxtjs,electron,express,fastapi,flask&theme=light)](https://skillicons.dev)
 [![My Skills](https://skillicons.dev/icons?i=threejs)](https://skillicons.dev)
 
 ### 🕹 OS 
