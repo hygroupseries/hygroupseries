@@ -28,10 +28,9 @@ Hi there! I'm a Software Engineering student passionate about building things an
 
 ### ✨ Beyond Coding
 When I'm not coding, you'll find me:
-- 🎮 Playing Minecraft Java Edition on Windows and Linux
+- 🎮 Gaming (Minecraft Java Edition and other platforms)
 - 🔧 Building and customizing computers
 - 🎬 Watching movies and TV shows
-- 🎯 Gaming across various platforms
 - 📹 Creating and editing video content
 
 ### 📊 GitHub Stats
