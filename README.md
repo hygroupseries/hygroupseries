@@ -2,6 +2,8 @@
 
 Hi there! I'm a Software Engineering student passionate about building things and learning new technologies. Currently diving deep into computer science fundamentals through CS61A, CS61B, and CS106B/L while vibing with code.
 
+<img align="right" style="float: right;width: 250px;margin: 0 0 20px 20px;border: 1px solid #d9d9d9;border-radius: 4px;" alt="hygroupseries" src="./assets/images/img.webp" />
+
 ### 🎯 Current Focus
 - 📚 Mastering data structures and algorithms
 - 🌱 Exploring functional programming paradigms
