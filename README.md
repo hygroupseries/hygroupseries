@@ -10,7 +10,8 @@ Hi there! I'm a Software Engineering student passionate about building things an
 - 🔨 Building full-stack web applications
 - 🚀 Contributing to open-source projects
 
-
+<br>
+<br>
 
 ### 🔭 Tech Stack
 
