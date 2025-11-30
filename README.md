@@ -9,6 +9,9 @@ Hi there! I'm a Software Engineering student passionate about building things an
 - 🌱 Exploring functional programming paradigms
 - 🔨 Building full-stack web applications
 - 🚀 Contributing to open-source projects
+
+
+
 ### 🔭 Tech Stack
 
 #### Programming Languages
