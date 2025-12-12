@@ -7,13 +7,13 @@ Hi there! I'm a Software Engineering student passionate about building things an
 ### 🎯 Current Focus
 - 📚 Mastering data structures and algorithms
 - 🌱 Exploring functional programming paradigms
-- 🔨 Building full-stack web applications
+- 🛠️ Building full-stack web applications
 - 🚀 Contributing to open-source projects
 
 <br>
 <br>
 
-### 🔭 Tech Stack
+### 🧰 Tech Stack
 
 #### Programming Languages
 [![My Skills](https://skillicons.dev/icons?i=py,java,cpp,go,rust,c,haskell,ts,js,clojure,html,css,wasm,lua&theme=light)](https://skillicons.dev)
@@ -28,16 +28,16 @@ Hi there! I'm a Software Engineering student passionate about building things an
 ### 🛠️ Tools & Technologies
 [![My Skills](https://skillicons.dev/icons?i=vscode,idea,docker,git,vim,cmake,npm,webpack,vite,figma,bash,powershell,notion&theme=light)](https://skillicons.dev)
 
-### 🌏 Languages
+### 🌐 Languages
 - 🇨🇳 Simplified Chinese / 中文 (Native)
 - 🇬🇧 English (Intermediate - Learning & Improving)
 
-### ✨ Beyond Coding
+### ✅ Beyond Coding
 When I'm not coding, you'll find me:
 - 🎮 Gaming (Minecraft Java Edition and other platforms)
 - 🔧 Building and customizing computers
 - 🎬 Watching movies and TV shows
-- 📹 Creating and editing video content
+- 🎥 Creating and editing video content
 
 ### 📊 GitHub Stats
 
