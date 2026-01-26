@@ -49,3 +49,5 @@ When I'm not coding, you'll find me:
   <!-- <i>Let's connect and build something amazing together!</i> -->
   <i>La vida es una lenteja, o la tomas o la dejas.</i>
 </div>
+
+![Bing Wallpaper](./bing-wallpaper.jpg)
