@@ -26,7 +26,8 @@ jobs:
           mkdir -p wallpapers
 
           URL=$(cat image_url.txt)
-          curl -s "https://www.bing.com$URL" -o bing-wallpaper.jpg
+          HD_URL="https://www.bing.com${URL}&w=3840&h=2160&rs=1"
+          curl -s "$HD_URL" -o bing-wallpaper.jpg
 
           NEW_HASH=$(sha256sum bing-wallpaper.jpg | cut -d' ' -f1)
 
