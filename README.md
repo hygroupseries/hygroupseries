@@ -50,4 +50,6 @@ When I'm not coding, you'll find me:
   <i>La vida es una lenteja, o la tomas o la dejas.</i>
 </div>
 
+---
+
 ![Bing Wallpaper](./bing-wallpaper.jpg)
