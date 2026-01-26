@@ -1,39 +1,61 @@
-name: Update Bing Wallpaper
-
+name: Update Bing Wallpaper (with archive)
 
 on:
   schedule:
-  - cron: "0 0 * * *" # 每天 UTC 00:00
+    - cron: "0 0 * * *"   # 每天 UTC 00:00
   workflow_dispatch:
-
 
 permissions:
   contents: write
 
-
 jobs:
-  update-wallpaper:
+  update:
     runs-on: ubuntu-latest
 
     steps:
-      - name: Checkout
-        uses: actions/checkout@v4
+      - uses: actions/checkout@v4
 
-      - name: Fetch Bing wallpaper metadata
+      - name: Fetch Bing image URL
         run: |
           curl -s "https://www.bing.com/HPImageArchive.aspx?format=js&idx=0&n=1&mkt=ja-JP" \
-            | jq -r '.images[0].url' > image_url.txt
+          | jq -r '.images[0].url' > image_url.txt
 
-      - name: Download wallpaper
+      - name: Download and archive wallpaper (hash dedup)
         run: |
+          DATE=$(date -u +"%Y-%m-%d")
+          mkdir -p wallpapers
+
           URL=$(cat image_url.txt)
           curl -s "https://www.bing.com$URL" -o bing-wallpaper.jpg
 
-      - name: Commit and push if changed
+          NEW_HASH=$(sha256sum bing-wallpaper.jpg | cut -d' ' -f1)
+
+          LATEST=$(ls wallpapers/*.jpg 2>/dev/null | sort | tail -1 || true)
+
+          if [ -n "$LATEST" ]; then
+            OLD_HASH=$(sha256sum "$LATEST" | cut -d' ' -f1)
+
+            if [ "$NEW_HASH" = "$OLD_HASH" ]; then
+              echo "Wallpaper unchanged, skip archive"
+              SKIP_ARCHIVE=1
+            fi
+          fi
+
+          if [ -z "$SKIP_ARCHIVE" ]; then
+            cp bing-wallpaper.jpg "wallpapers/$DATE.jpg"
+          fi
+
+      - name: Commit if changed
         run: |
           git config user.name "github-actions"
           git config user.email "github-actions@github.com"
 
-          git add bing-wallpaper.jpg
-          git diff --cached --quiet || git commit -m "chore: update Bing daily wallpaper"
+          git add bing-wallpaper.jpg wallpapers/
+
+          if git diff --cached --quiet; then
+            echo "No changes to commit"
+            exit 0
+          fi
+
+          git commit -m "chore: update Bing wallpaper ($DATE)"
           git push
