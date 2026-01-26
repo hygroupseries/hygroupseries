@@ -1,0 +1,39 @@
+name: Update Bing Wallpaper
+
+
+on:
+  schedule:
+  - cron: "0 0 * * *" # 每天 UTC 00:00
+  workflow_dispatch:
+
+
+permissions:
+  contents: write
+
+
+jobs:
+  update-wallpaper:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Fetch Bing wallpaper metadata
+        run: |
+          curl -s "https://www.bing.com/HPImageArchive.aspx?format=js&idx=0&n=1&mkt=ja-JP" \
+            | jq -r '.images[0].url' > image_url.txt
+
+      - name: Download wallpaper
+        run: |
+          URL=$(cat image_url.txt)
+          curl -s "https://www.bing.com$URL" -o bing-wallpaper.jpg
+
+      - name: Commit and push if changed
+        run: |
+          git config user.name "github-actions"
+          git config user.email "github-actions@github.com"
+
+          git add bing-wallpaper.jpg
+          git diff --cached --quiet || git commit -m "chore: update Bing daily wallpaper"
+          git push
