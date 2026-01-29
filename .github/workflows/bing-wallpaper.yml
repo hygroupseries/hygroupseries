@@ -6,7 +6,7 @@ on:
     - cron: "*/5 * * * *"
 
 permissions:
-  contents: write
+  contents: read
 
 jobs:
   update:
@@ -46,17 +46,17 @@ jobs:
             cp bing-wallpaper.jpg "wallpapers/$DATE.jpg"
           fi
 
-      - name: Commit if changed
-        run: |
-          git config user.name "github-actions"
-          git config user.email "github-actions@github.com"
+      # - name: Commit if changed
+        # run: |
+        #   git config user.name "github-actions"
+        #   git config user.email "github-actions@github.com"
 
-          git add bing-wallpaper.jpg wallpapers/
+        #   git add bing-wallpaper.jpg wallpapers/
 
-          if git diff --cached --quiet; then
-            echo "No changes to commit"
-            exit 0
-          fi
+        #   if git diff --cached --quiet; then
+        #     echo "No changes to commit"
+        #     exit 0
+        #   fi
 
-          git commit -m "chore: update Bing wallpaper ($DATE)"
-          git push
+        #   git commit -m "chore: update Bing wallpaper ($DATE)"
+        #   git push
