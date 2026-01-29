@@ -3,7 +3,10 @@ name: Update Bing Wallpaper (with archive)
 on:
   workflow_dispatch:
   schedule:
-    - cron: "0 1 * * *"  # 每天 UTC 01:00 运行（Bing 每日更新一次）
+    - cron: "*/5 * * * *"  # 每天 UTC 01:00 运行（Bing 每日更新一次）
+
+permissions:
+  contents: write
 
 jobs:
   update:
