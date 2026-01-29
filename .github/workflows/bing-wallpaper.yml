@@ -1,9 +1,9 @@
 name: Update Bing Wallpaper (with archive)
 
 on:
-  schedule:
-    - cron: "0 0 * * *"   # 每天 UTC 00:00
   workflow_dispatch:
+  schedule:
+    - cron: "*/5 * * * *"
 
 permissions:
   contents: write
