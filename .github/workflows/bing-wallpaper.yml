@@ -1,11 +1,11 @@
 name: Update Bing Wallpaper (with archive)
 
 on:
- 
+
   schedule:
     - cron: "0 0 * * *"
   workflow_dispatch:
-    
+
   push:
       branches:
         - main
@@ -20,41 +20,33 @@ jobs:
     steps:
       - uses: actions/checkout@v4
 
-      - name: Fetch Bing image URL
+      - name: Fetch, archive and commit wallpaper
         run: |
-          curl -s "https://www.bing.com/HPImageArchive.aspx?format=js&idx=0&n=1&mkt=ja-JP" \
-          | jq -r '.images[0].url' > image_url.txt
+          set -euo pipefail
 
-      - name: Download and archive wallpaper (hash dedup)
-        run: |
-          DATE=$(date -u +"%Y-%m-%d")
+          # ja-JP 壁纸在东京时间零点更换，按该时区取日期
+          DATE=$(TZ=Asia/Tokyo date +"%Y-%m-%d")
           mkdir -p wallpapers
 
-          URL=$(cat image_url.txt)
-          HD_URL="https://www.bing.com${URL}&w=3840&h=2160&rs=1"
-          curl -s "$HD_URL" -o bing-wallpaper.jpg
+          # curl -f：HTTP 错误直接失败；jq -e：URL 为 null 时退出码非零
+          URL=$(curl -sf "https://www.bing.com/HPImageArchive.aspx?format=js&idx=0&n=1&mkt=ja-JP" | jq -er '.images[0].url')
+          curl -sf "https://www.bing.com${URL}&w=3840&h=2160&rs=1" -o bing-wallpaper.jpg
+
+          # 校验：必须是 JPEG 且大于 100KB，否则中止，不提交任何垃圾文件
+          file bing-wallpaper.jpg | grep -qi jpeg
+          [ "$(stat -c%s bing-wallpaper.jpg)" -gt 100000 ]
 
           NEW_HASH=$(sha256sum bing-wallpaper.jpg | cut -d' ' -f1)
-
           LATEST=$(ls wallpapers/*.jpg 2>/dev/null | sort | tail -1 || true)
 
-          if [ -n "$LATEST" ]; then
-            OLD_HASH=$(sha256sum "$LATEST" | cut -d' ' -f1)
-
-            if [ "$NEW_HASH" = "$OLD_HASH" ]; then
-              echo "Wallpaper unchanged, skip archive"
-              SKIP_ARCHIVE=1
-            fi
-          fi
-
-          if [ -z "$SKIP_ARCHIVE" ]; then
+          if [ -n "$LATEST" ] && [ "$NEW_HASH" = "$(sha256sum "$LATEST" | cut -d' ' -f1)" ]; then
+            echo "Wallpaper unchanged, skip archive"
+          else
             cp bing-wallpaper.jpg "wallpapers/$DATE.jpg"
           fi
 
-      - name: Commit if changed
-        run: |
-          git config user.name "github-actions"
-          git config user.email "github-actions@github.com"
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
 
           git add bing-wallpaper.jpg wallpapers/
 
