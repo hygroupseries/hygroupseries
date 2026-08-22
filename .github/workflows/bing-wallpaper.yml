@@ -1,14 +1,9 @@
 name: Update Bing Wallpaper (with archive)
 
 on:
-
   schedule:
     - cron: "0 0 * * *"
   workflow_dispatch:
-
-  push:
-      branches:
-        - main
 
 jobs:
   update:
